@@ -8,6 +8,7 @@
   --contact-color: #757575;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
   --footer-background-color: #2f303a;
+  --filter-button-background: #f5f4fa;
 }
 body {
   font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
@@ -155,4 +156,45 @@ footer .link:focus {
   color: var(--main-white-color);
   text-decoration: none;
   font-style: normal;
+}
+
+/* portfolio.html */
+
+/* filter section */
+.filter .button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--title-color);
+  background-color: var(--filter-button-background);
+  cursor: pointer;
+}
+
+.filter .button:hover,
+.filter .button:focus {
+  color: var(--main-white-color);
+  background-color: var(--accent-color);
+}
+
+/* gallery section */
+
+/* .gallery .link {
+  text-decoration: none;
+}
+
+.gallery .link:hover,
+.gallery .link:focus {
+  color: var(--accent-color);
+} */
+.gallery .item-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  color: var(--title-color);
+}
+
+.gallery .item-description {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--main-text-color);
 }
